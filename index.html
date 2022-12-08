@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.min.css" integrity="sha512-Z6UIAdEZ7JNzeX5M/c5QZj+oqbldGD+E8xJEoOwAx5e0phH7kdjsWULGeK5l2UjehKtChHDaUY2rQAF/NEiI9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <style>
+        #nav{
+            margin: 5px;
+        }
+        h1{
+            color: rgb(229, 255, 0);
+        }
+        #slide{
+            margin-left: 30%;
+        }
+        #calender{
+            margin-left: 28%;
+        }
+        body {
+          background-image: url('stone.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        #logo{
+            margin-left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="logo.png" width="550pc" height="70pc" alt="logo">
+    <div class="w3-container w3-margin">
+        <a href="index.html" id="nav" class="w3-button w3-green w3-round-large">Home</a> 
+        <div class="w3-dropdown-hover">
+            <a href="" id="nav" class="w3-button w3-green w3-round-large">Categories</a>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a class="w3-bar-item w3-button w3-teal" onclick="health()">Health</a>
+                <a class="w3-bar-item w3-button w3-teal" onclick="productivity()">Productivity</a>
+                <a class="w3-bar-item w3-button w3-teal" onclick="entertainment()">Entertainment</a>
+                <a class="w3-bar-item w3-button w3-teal" onclick="finance()">Finance</a>
+            </div>
+        </div>
+        <a href="about.html" id="nav" class="w3-button w3-green w3-round-large">About Us</a>
+        <a href="contactus.html" id="nav" class="w3-button w3-green w3-round-large">Contact Us</a>
+    </div>
+    <div class="w3-container" id="slide">
+    <img class="nature" src="https://images.pexels.com/photos/1757363/pexels-photo-1757363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%" height="30%">
+    <img class="nature" src="https://images.pexels.com/photos/2918152/pexels-photo-2918152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%" height="30%">
+    <img class="nature" src="https://images.pexels.com/photos/128303/pexels-photo-128303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%" height="30%">
+    <img class="nature" src="https://images.pexels.com/photos/298694/pexels-photo-298694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%" height="30%">
+    </div>
+    <script>
+    w3.slideshow(".nature", 1500);
+    </script>
+    <div class="w3-margin w3-red w3-card-4" id="productivity">
+        <div class="w3-purple">
+        <h1 class="w3-margin w3-center"><b>Time Management</b></h1><hr>
+        </div>
+        <table>
+            <tr>
+                <th><img class="w3-margin" width="200px" height="150px" src="https://biz30.timedoctor.com/images/2021/02/time-management-strategies.jpg" alt="">
+                </th>
+                <th><h3 class="w3-margin">Time management is the process of planning and controlling 
+                    how much time to spend on specific activities. Good time management enables an 
+                    individual to complete more in a shorter period of time, lowers stress, and leads to career success.
+                </h3></th>`
+            </tr>
+        </table>
+        <a href="post1.html" class="w3-button w3-margin w3-round-large w3-blue">Read More</a>
+        <img id="calender" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-author-literature-flaticons-lineal-color-flat-icons-4.png"/>
+        <h5 class="w3-button w3-round-large w3-teal">Posted by Yuvraj</h5>
+        <img id="calender" src="https://img.icons8.com/fluency/48/000000/calendar.png"/>
+        <h4 class="w3-button w3-round-large w3-teal" id="post1"></h4>
+    </div>
+    <div class="w3-margin w3-red w3-card-4" id="health1">
+        <div class="w3-purple">
+        <h1 class="w3-margin w3-center"><b>How much water should you drink?</b></h1><hr>
+        </div>
+        <table>
+            <tr>
+                <th><img class="w3-margin" width="200px" height="150px" src="https://domf5oio6qrcr.cloudfront.net/medialibrary/7909/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg" alt="">
+                </th>
+                <th><h3 class="w3-margin">How much water should you drink a day? You probably know 
+                    that it's important to drink plenty of fluids when the temperatures soar outside. 
+                    But staying hydrated is a daily necessity, no matter what the thermometer says. 
+                    Unfortunately, many of us aren't getting enough to drink, especially older adults. 
+                    Older people don't sense thirst as much as they did when they were younger. 
+                    And that could be a problem if they're on a medication that may cause fluid loss, such as a diuretic.</h3></th>
+            </tr>
+        </table>
+        <a href="post2.html" class="w3-button w3-margin w3-round-large w3-blue">Read More</a>
+        <img id="calender" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-author-literature-flaticons-lineal-color-flat-icons-4.png"/>
+        <h5 class="w3-button w3-round-large w3-teal">Posted by Yuvraj</h5>
+        <img id="calender" src="https://img.icons8.com/fluency/48/000000/calendar.png"/>
+        <h4 class="w3-button w3-round-large w3-teal" id="post2"></h4>
+    </div>
+    <div class="w3-margin w3-red w3-card-4" id="health2">
+        <div class="w3-purple">
+        <h1 class="w3-margin w3-center"><b>Sleep</b></h1><hr>
+        </div>
+        <table>
+            <tr>
+                <th><img class="w3-margin" width="200px" height="100px" src="https://sph.umich.edu/pursuit/2020posts/2020images/Sleep101.jpg" alt="">
+                </th>
+                <th><h3 class="w3-margin">One in five Americans sleeps less than six hours a night—a trend
+                     that can have serious personal health consequences. Sleep deprivation increases the risk 
+                     for a number of chronic health problems, including obesity, diabetes, and heart disease. 
+                     If you have trouble sleeping, the following strategies can help you get more sleep.
+                </h3></th>
+            </tr>
+        </table>
+        <a href="post3.html" class="w3-button w3-margin w3-round-large w3-blue">Read More</a>
+        <img id="calender" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-author-literature-flaticons-lineal-color-flat-icons-4.png"/>
+        <h5 class="w3-button w3-round-large w3-teal">Posted by Yuvraj</h5>
+        <img id="calender" src="https://img.icons8.com/fluency/48/000000/calendar.png"/>
+        <h4 class="w3-button w3-round-large w3-teal" id="post3"></h4>
+    </div>
+    <div class="w3-margin w3-red w3-card-4" id="entertainment">
+        <div class="w3-purple">
+        <h1 class="w3-margin w3-center"><b>Adipurush</b></h1><hr>
+        </div>
+        <table>
+            <tr>
+                <th><img class="w3-margin" width="200px" height="100px" src="https://th-i.thgim.com/public/entertainment/movies/w5sgbf/article65965739.ece/alternates/FREE_1200/adipurush%20teaser.JPG" alt="">
+                </th>
+                <th><h3 class="w3-margin">Teaser of Prabhas starrer ‘Adipurush’ criticised for ‘poor’ VFX.
+                </h3></th>
+            </tr>
+        </table>
+        <a href="post4.html" class="w3-button w3-margin w3-round-large w3-blue">Read More</a>
+        <img id="calender" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-author-literature-flaticons-lineal-color-flat-icons-4.png"/>
+        <h5 class="w3-button w3-round-large w3-teal">Posted by Yuvraj</h5>
+        <img id="calender" src="https://img.icons8.com/fluency/48/000000/calendar.png"/>
+        <h4 class="w3-button w3-round-large w3-teal" id="post4"></h4>
+    </div>
+    <div class="w3-margin w3-red w3-card-4" id="finance">
+        <div class="w3-purple">
+        <h1 class="w3-margin w3-center"><b>LUPA Stocks</b></h1><hr>
+        </div>
+        <table>
+            <tr>
+                <th><img class="w3-margin" width="200px" height="100px" src="https://www.goodreturns.in/img/2021/10/stock-investing-2-1634100431.jpg" alt="">
+                </th>
+                <th><h3 class="w3-margin">LUPA stocks are a nickname for four companies that were born in the mobile app generation. Also referred to as the PAUL stocks, they include Lyft, Uber, Pinterest, and Airbnb. All four companies have completed their initial public offerings (IPOs) and are now actively traded on public stock exchanges.
+                </h3></th>
+            </tr>
+        </table>
+        <a href="post5.html" class="w3-button w3-margin w3-round-large w3-blue">Read More</a>
+        <img id="calender" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-author-literature-flaticons-lineal-color-flat-icons-4.png"/>
+        <h5 class="w3-button w3-round-large w3-teal">Posted by Yuvraj</h5>
+        <img id="calender" src="https://img.icons8.com/fluency/48/000000/calendar.png"/>
+        <h4 class="w3-button w3-round-large w3-teal" id="post5"></h4>
+    </div>
+    <br><br>
+    <div class="w3-fluid">
+    <footer class="w3-indigo w3-bottom">
+        <h3 class="w3-center"><u><b>Info Technology Limited &copy; 2022</b></u></h3>
+    </footer>
+    </div>
+    <script>
+        function productivity() {
+        var x = document.getElementById("productivity");
+        const ids=["health1","health2","entertainment","finance"];
+        x.style.display = "block";
+        for (let i = 0; i < ids.length; i++) {
+            x=document.getElementById(ids[i]);
+            x.style.display  = "none";
+        }
+        };
+        function health(){
+        var x = document.getElementById("health1");
+        var y = document.getElementById("health2");
+        x.style.display = "block";
+        y.style.display = "block";
+        const ids=["productivity","entertainment","finance"];
+        for (let i = 0; i < ids.length; i++) {
+            x=document.getElementById(ids[i]);    
+            x.style.display  = "none";
+        }
+        };
+        function entertainment() {
+        var x = document.getElementById("entertainment");
+        const ids=["productivity","health1","health2","finance"];
+        x.style.display = "block";
+        for (let i = 0; i < ids.length; i++) {
+            x=document.getElementById(ids[i]);    
+            x.style.display  = "none";
+        }
+        };
+        function finance() {
+        var x = document.getElementById("finance");
+        const ids=["productivity","health1","health2","entertainment"];
+        x.style.display = "block";
+        for (let i = 0; i < ids.length; i++) {
+            x=document.getElementById(ids[i]);    
+            x.style.display  = "none";
+        }
+        };
+        const today = new Date();
+        const yyyy = today.getFullYear();
+        let mm = today.getMonth() + 1; // Months start at 0!
+        let dd = today.getDate();
+        if (dd < 10) dd = '0' + dd;
+        if (mm < 10) mm = '0' + mm;
+        const date = dd + '/' + mm + '/' + yyyy;
+        document.getElementById("post1").innerHTML= date;
+        document.getElementById("post2").innerHTML= date;
+        document.getElementById("post3").innerHTML= date;
+        document.getElementById("post4").innerHTML= date;
+        document.getElementById("post5").innerHTML= date;
+        </script>
+</body>
+</html>
